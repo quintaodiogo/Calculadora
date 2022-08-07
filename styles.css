@@ -7,7 +7,8 @@
 }
 
 body {
-  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);}
+  background: #93c4e2;
+}
 
 .grid-container {
   display: grid;
@@ -23,17 +24,17 @@ body {
   font-size: 2rem;
   border: none;
   outline: none;
-  background-color: #1C3879;
+  background-color: #7db8dd;
   color: #eee;
 }
 
 .grid-container > button:hover {
-  background-color: #F9F5EB;
-  color: #1C3879;
+  background-color: #f9f5eb;
+  color: #0466c8;
 }
 
 .grid-container > .operator {
-  background: #607EAA;
+  background: #3d95cb;
 }
 
 .span-two {
@@ -42,7 +43,7 @@ body {
 
 .grid-container > .output {
   grid-column: 1 / -1;
-  background: #1C3879;
+  background: #68acd7;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -53,11 +54,11 @@ body {
 }
 
 .grid-container > .output > .previous-operand {
-  color: rgba(255, 255, 255, 0.75);
+  color: #001233;
   font-size: 1.5rem;
 }
 
 .grid-container > .output > .current-operand {
-  color: #F9F5EB;
+  color: #001233;
   font-size: 2.5rem;
 }
